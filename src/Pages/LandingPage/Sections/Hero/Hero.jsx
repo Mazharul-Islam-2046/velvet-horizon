@@ -1,6 +1,7 @@
 
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Banner from './Components/Banner';
 
 
 const Hero = () => {
@@ -13,7 +14,7 @@ const Hero = () => {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-            
+            <Banner/>
         </SwiperSlide>
       </Swiper>
     </div>

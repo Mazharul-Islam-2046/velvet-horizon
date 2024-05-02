@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
     return (
-        <div className="flex justify-between items-center px-16 py-8 absolute top-0 left-0 right-0">
+        <div className="flex justify-between items-center px-16 py-8 z-10 absolute top-0 left-0 right-0">
             <p className="font-bold text-xl">Velvet Horizon</p>
             <div className="flex gap-5 justify-between items-center tracking-wider">
                 <NavLink to="/">Home</NavLink>
